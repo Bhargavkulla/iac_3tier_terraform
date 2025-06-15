@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Run commands as ec2-user
 su - ec2-user <<'EOF'
