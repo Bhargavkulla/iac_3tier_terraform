@@ -2,7 +2,7 @@
 # Launch Template for App Tier
 resource "aws_launch_template" "app_launch_template" {
   name_prefix   = "${var.project_prefix}-app-lt-"
-  image_id      = "ami-09e6f87a47903347c"
+  image_id      = "ami-02b3c03c6fadb6e2c"
   instance_type = "t2.micro"
 
   iam_instance_profile {
